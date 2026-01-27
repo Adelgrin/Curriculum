@@ -39,6 +39,17 @@
   urlcolor=black
 }
 
+\newcommand{\experience}[3]{
+	\noindent
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+    \textbf{#1} & #2 \\
+  \end{tabular*}
+  \begin{itemize}
+    #3
+  \end{itemize}
+}
+
+
 \begin{document}
 
 \begin{center}
@@ -98,27 +109,23 @@ resiliência, pensamento crítico, motivação, relacionamento interpessoal.
 % =======================
 \section*{Experiência Profissional:}
 
-\textbf{Flysoft Informática} \hfill 2017 -- 2018
+\experience{Flysoft Informática}{2017 -- 2018}
+{
+	\item Assistente técnico geral, prestando suporte a dispositivos e sistemas operacionais Windows e Unix.
+}
 
-\begin{itemize}
-  \item Assistente técnico geral, prestando suporte a dispositivos e sistemas operacionais Windows e Unix.
-\end{itemize}
-
-\textbf{Centenário Indústria Gráfica} \hfill 2021 -- 2022
-
-\begin{itemize}
-  \item Consultor de redes, responsável pela modelagem de nova infraestrutura com foco em segurança.
-  \item Implementação do Active Directory (AD) para gerenciamento de políticas corporativas.
-\end{itemize}
-
-\textbf{Câmara Municipal de São Bernardo do Campo} \hfill 2025 -- Atual
-
-\begin{itemize}
-  \item Estagiário na área de informática.
-  \item Desenvolvimento e manutenção da estrutura de rede.
-  \item Suporte ao usuário final e manutenção de servidores virtualizados.
-  \item Atualização da documentação técnica da área.
-\end{itemize}
+\experience{Centenário Indústria Gráfica}{2021 -- 2022}
+{
+	\item Consultor de redes, responsável pela modelagem de nova infraestrutura com foco em segurança.
+	\item Implementação do Active Directory (AD) para gerenciamento de políticas corporativas.
+}
+\experience{Câmara Municipal de São Bernardo do Campo}{2025 -- Atual}
+{
+	\item Estagiário na área de informática.
+	\item Desenvolvimento e manutenção da estrutura de rede.
+	\item Suporte ao usuário final e manutenção de servidores virtualizados.
+	\item Atualização da documentação técnica da área.
+}
 
 % seção Inglês
 \newpage
@@ -180,26 +187,20 @@ critical thinking, motivation, interpersonal skills.
 % =======================
 \section*{Professional Experience:}
 
-\textbf{Flysoft Informática} \hfill 2017 -- 2018
-
-\begin{itemize}
+\experience{Flysoft Informática}{2017 -- 2018}
+{
   \item General technical assistant providing support for Windows and Unix systems and devices.
-\end{itemize}
-
-\textbf{Centenário Indústria Gráfica} \hfill 2021 -- 2022
-
-\begin{itemize}
+}
+\experience{Centenário Indústria Gráfica}{2021 -- 2022}
+{
   \item Network consultant responsible for designing a more secure infrastructure.
   \item Implemented Active Directory (AD) to improve company policy management.
-\end{itemize}
-
-\textbf{House of representatives of São Bernardo do Campo} \hfill 2025 -- Present
-
-\begin{itemize}
+}
+\experience{House of representatives of São Bernardo do Campo}{2025 -- present}
+{
   \item IT support intern.
   \item Network development, user support, and maintenance of virtualized systems.
   \item Updated technical documentation for the IT team.
-\end{itemize}
-
+}
 
 \end{document}
