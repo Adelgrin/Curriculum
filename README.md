@@ -1,5 +1,5 @@
 # Curriculum Vitae Lucas Kerr do Amaral
-the certificates mentioned on the resumee are located at ./certificados directory
+the certificates mentioned on the resumee are located at [certificados](./certificados) directory
 
 ## Document signed using RSA key:
 
